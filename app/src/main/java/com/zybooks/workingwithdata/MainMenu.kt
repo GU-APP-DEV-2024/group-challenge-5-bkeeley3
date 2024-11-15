@@ -29,5 +29,11 @@ class MainMenu : AppCompatActivity() {
             var intent = Intent(this, NasaAPI::class.java)
             startActivity(intent)
         }
+
+        var earthButton = findViewById<Button>(R.id.earthButton)
+        earthButton.setOnClickListener {
+            var intent = Intent(this, EPICphotos::class.java)
+            startActivity(intent)
+        }
     }
 }

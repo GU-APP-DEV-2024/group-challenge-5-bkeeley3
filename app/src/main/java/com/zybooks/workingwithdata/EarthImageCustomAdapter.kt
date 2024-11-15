@@ -10,8 +10,8 @@ import com.bumptech.glide.Glide
 import java.net.URL
 
 
-class ImageCustomAdapter(private val dataSet: ArrayList<NasaAPI.ImageData>) :
-    RecyclerView.Adapter<ImageCustomAdapter.ViewHolder>() {
+class EarthImageCustomAdapter(private val dataSet: ArrayList<EPICphotos.ImageData>) :
+    RecyclerView.Adapter<EarthImageCustomAdapter.ViewHolder>() {
 
     /**
      * Provide a reference to the type of views that you are using

@@ -12,4 +12,11 @@
     <string name="end_text">End</string>
     <string name="search_button_text">Search</string>
     <string name="clear_button_text">Clear</string>
+    <string name="earth_imaging_camera">Earth Imaging Camera</string>
+    <string name="latitude">Latitude of Where you want to see</string>
+    <string name="latitude_label">Latitude</string>
+    <string name="and">AND</string>
+    <string name="longitude">Longitude</string>
+    <string name="longitude_field">Longitude of where you want to see</string>
+    <string name="date_entry">Date you want to see (optional)</string>
 </resources>
